@@ -1,3 +1,6 @@
+/* INCLUDES **********************************************************/
+#include "StandardTypes.h"
+
 /* CONSTANT DEFINITIONS **********************************************/
 
 /* Base address of RCC registers */
@@ -41,7 +44,7 @@
 
 /* HSE On */
 #define RCC_CR_HSEON_OFFSET 16
-#define RCCC_CR_HSEON (1 << RCC_CR_HSEON_OFFSET)
+#define RCC_CR_HSEON (1 << RCC_CR_HSEON_OFFSET)
 
 /* HSE Ready */
 #define RCC_CR_HSERDY_OFFSET 17
